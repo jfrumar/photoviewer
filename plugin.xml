@@ -26,14 +26,4 @@
 		
 		<framework src="src/android/PhotoView" custom="true" />
 	</platform>
-	<platform name="ios">
-		<config-file parent="/*" target="config.xml">
-			<feature name="PhotoViewer">
-				<param name="ios-package" value="PhotoViewer" />
-			</feature>
-		</config-file>
-		<source-file src="src/ios/PhotoViewer.m" />
-		
-		<source-file src="src/ios/Podfile" target-dir="../../" />
-	</platform>
 </plugin>
