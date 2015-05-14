@@ -9,5 +9,5 @@ This fork was created to strip out the iOS source - it doesn't work well with Co
 
 ### iOS
 > On iOS is being used a CocoaPod Library so, install CocoaPod and after install the plugin run the pod install in the iOS folder  
-> pod install  
+> pod install --no-integrate  
 > Remember to add $(inherited) into OTHER_LDFLAGS
